@@ -1,3 +1,5 @@
 def alphabetize(arr)
-  # code here
+  espo = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
+  return arr.sort_by{|string| string.tr(espo, ascii)}
 end
