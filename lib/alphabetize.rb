@@ -1,10 +1,8 @@
 def alphabetize(arr)
-alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 organized = ""
-ezperansza_alphabet = alpha.split('')
+ezperansza_alphabet = esperanto.split('')
 
-
-alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 # i = 0
 # while i < (alpha.length - 1) 
