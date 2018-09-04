@@ -18,3 +18,8 @@ arr.sort_by do  |word|
 #  i += 1
  end 
  alphabetize(arr)
+ 
+#   *** Possible Solution ***
+#  if word[0] == alphabet.index(i) if smae letter match 
+# but the word[0] > alphabet index position 
+# then sort word by alphabet order.
